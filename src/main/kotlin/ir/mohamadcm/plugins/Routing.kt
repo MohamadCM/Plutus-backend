@@ -2,6 +2,7 @@ package ir.mohamadcm.plugins
 
 import io.ktor.http.*
 import io.ktor.server.application.*
+import io.ktor.server.http.content.*
 import io.ktor.server.plugins.statuspages.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
@@ -16,9 +17,6 @@ fun Application.configureRouting() {
         get("/") {
             call.respondText("Welcome back, anguis_35!")
         }
-        // Static plugin. Try to access `/static/index.html`
-//        static("/static") {
-//            resources("static")
-//        }
+        staticResources("/public", "static", index = "index.html")
     }
 }
