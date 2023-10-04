@@ -1,0 +1,8 @@
+openapi: "3.0.3"
+info:
+  title: "Plutus_backend API"
+  description: "Plutus_backend API"
+  version: "1.0.0"
+servers:
+- url: "https://Plutus_backend"
+paths: {}
