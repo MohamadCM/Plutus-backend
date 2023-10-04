@@ -15,7 +15,7 @@
         <slf4j_version>2.0.9</slf4j_version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
-        <main.class>ir.mohamadcm.ApplicationKt</main.class>
+        <main.class>ir.mohamadcm.PlutusKt</main.class>
     </properties>
     <repositories>
     </repositories>
